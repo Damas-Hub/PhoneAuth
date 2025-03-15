@@ -68,10 +68,10 @@ const Otp = () => {
           countryCode={selectedCountry ? selectedCountry.cca2 : "US"} // Default to US
           onSelect={(country) => setSelectedCountry(country)}
           theme={{
-            backgroundColor: "#fff", // Set background color to white
-            primaryColor: "#000", // Set primary color to black
-            onBackgroundTextColor: "#000", // Set text color to black
-            onPrimaryColor: "#fff", // Set primary color to white
+            backgroundColor: "#fff", 
+            primaryColor: "#000", 
+            onBackgroundTextColor: "#000", 
+            onPrimaryColor: "#fff", 
           }}
         />
       </View>
